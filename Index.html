@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="styleformularioingreso.css">
+<title>Ingreso</title>
+</head>
+
+<body>
+<SCRIPT  language=JavaScript>
+function go(){
+
+if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){
+        document.form.submit();
+    }
+    else{
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+    }
+}
+
+function go(){
+if (document.form.password.value=='0705820645' && document.form.login.value=='p.villa'){
+        document.form.submit();
+    }
+    else{
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+    }
+}
+
+</SCRIPT>
+<!---Direccionar el formulario que deseas enlzar al cumplir con el ingreso en: "TU_PAGINA_WEB.HTML"--->
+<FORM name=form action="TU_PAGINA_WEB.HTML">
+    <section class="form-register">
+      <label><font font size=6><b>Équilibre</b></font></label>
+      <label><font font size=3><b style="color:#999999">ECUADOR</b></font></label>
+      <br>
+         <!---<label><font font size=1><i>Ingenieria & Producción agrícola</i></font></label>--->
+      <hr color="blue" size=3>
+      <br>
+      <label><font font size=2>Bienvenido, al sistema WebÉquilibre, ingresa con tu usuario y contraseña para proceder con tu autenticación</font></label>
+      <br><br>
+      <label><font font size=6><b>SIGN IN</b></font></label>
+      <br><br>
+
+<label><font font size=2> USUARIO <br> <input class="controls" type="text" id="login" name="login"></font></label>
+<br>
+<label><font font size=2> CONTRASEÑA <br> <input class="controls" type="password" id="password" name="password"></font></label>
+
+<br><br><br><br>
+<INPUT class="botons" onclick=go() type=button value=INGRESAR>
+
+</section>
+</FORM>
+</body>
+</html>

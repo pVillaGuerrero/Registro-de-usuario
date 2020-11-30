@@ -1,0 +1,73 @@
+* {
+  margin: 1px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('Img/fondo12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-register {
+  width: 400px;
+  background: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 1px;
+  font-family: 'calibri';
+  color: #34495E;
+  text-align: center;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  background: #E5E7E9;
+  padding: 4px;
+  border-radius: 2px;
+  margin-bottom: 3px;
+  border: 1px solid #E5E7E9;
+  font-family: 'calibri';
+  font-size: 17px;
+  color: #001AF5;
+}
+
+.contenedores {
+  border: 2px solid #212F3C;
+}
+
+.textcontenedor{
+    font-family: 'calibri';
+  font-size: 9px;
+  color: #1D8348;
+}
+
+.form-register p {
+  height: auto;
+  text-align: center;
+  font-size: auto;
+  line-height: 40px;
+}
+
+.form-register .botons {
+  width: 180px;
+  height:40px;
+  background: #0000FF;
+  border: none;
+  padding: 3px;
+  color: white;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
